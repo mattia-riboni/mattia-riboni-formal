@@ -1,0 +1,73 @@
+body{
+  font-family:Space Mono ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(185, 185, 185);
+}
+
+.banner{
+  display: flex;
+  background-color: black;
+  color: white;
+  width: 100%;  
+  justify-content: space-between;
+  padding: 8px 0 8px 0;
+  font-family: Rubik;
+  font-size: 20px;
+}
+
+.banner>span{
+  margin: 0 20px 0 20px;
+}
+
+.banner>span>a:hover{
+  color:rgb(172, 172, 172);
+}
+.form-header{
+display: block;
+border: 2px solid black;
+border-radius: 3px;
+width:70vw;
+text-align: center;
+margin-top: 40px;
+padding:5px 30px 20px 30px;
+background-color: rgb(210, 210, 210);
+line-height: 60px;
+}
+
+.form-container{
+  display: flex;
+  border: 2px solid black;
+  border-radius: 3px;
+  width:70vw;
+  padding:5px 30px 20px 30px;
+  background-color: rgb(210, 210, 210);
+  margin-top: 50px;
+  margin-bottom: 50px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-container>button{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.form-row{
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  line-height: 45px;
+  text-align: center;
+}
+
+.form-row input[type = "text"],
+.form-row input[type= "email"]{
+width: 40vw;
+
+}
+.form-row textarea{
+  height: 200px;
+  width: 40vw;
+}
