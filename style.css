@@ -23,6 +23,8 @@ button:hover{
   background-color: rgb(130, 129, 129);
   color:black;
 }
+
+ a, 
  a:visited{
   color:white;
   text-decoration: none;
