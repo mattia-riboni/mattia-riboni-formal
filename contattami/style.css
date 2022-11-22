@@ -24,6 +24,7 @@ body{
 .banner>span>a:hover{
   color:rgb(172, 172, 172);
 }
+
 .form-header{
 display: block;
 border: 2px solid black;
